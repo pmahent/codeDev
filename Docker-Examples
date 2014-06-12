@@ -1,0 +1,29 @@
+/*
+
+Docker 
+
+(Node.js web application)
+https://docs.docker.com/examples/nodejs_web_app/
+
+MongoDB
+https://docs.docker.com/examples/mongodb/
+
+Redis
+https://docs.docker.com/examples/running_redis_service/
+
+PostgreSQL
+https://docs.docker.com/examples/postgresql_service/
+
+Riak
+https://docs.docker.com/examples/running_riak_service/
+
+SSH
+https://docs.docker.com/examples/running_ssh_service/
+
+CouchDB
+https://docs.docker.com/examples/couchdb_data_volumes/
+
+Apt-Cacher-ng service
+https://docs.docker.com/examples/apt-cacher-ng/
+
+*/
