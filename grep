@@ -1,0 +1,31 @@
+/*
+
+
+
+
+ls -ltr
+
+
+
+ps -ef | grep Audit | grep logs.dir --color
+
+
+cd /node/logs/
+
+
+
+ls -ltr
+
+tail -f trail.log-2002-06-13
+
+
+grep "ActivityAudit" trail.log-2014-06-13 | grep search | grep Time
+
+
+grep "ActivityAudit" trail.log-2014-06-13 | grep search | grep web | grep Time | grep -v war
+
+
+
+
+
+*/
