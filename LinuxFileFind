@@ -1,0 +1,64 @@
+/*
+
+
+Running commands on the files you find
+
+$  find {path} -name '{pattern}' -exec grep organic '{}' ';' 
+
+$ find ~/html/ -name '*.html' -exec grep organic '{}' ';' 
+
+To remove files that were accessed more than one year after they were last modified, pausing to confirm before each removal
+
+$  find ~ -used +365 -ok rm '{}' ';' 
+
+
+To compress all the files in your home directory tree that are two megabytes or larger, and that are not already compressed 
+with gzip(having a `.gz` file name extension)
+
+$ find ~ -size +2000000c -regex '.*[^gz]' -exec gzip '{}' ';' 
+
+Finding the smallest directories
+
+- to output a list of the subdirectories of the current directory tree, sorted in ascending order by size, 
+
+ $ du -S . | sort -s 
+ 
+ - use the '-r' option with sort to reverse the listing and output the largest directories first
+ 
+ $ du -S . | sort -nr
+ 
+ Finding the number of files in a listing
+ 
+ To output the number of files in the currenct directory, excluding dot files
+ 
+ $ ls | wc -l
+ 
+ to include the dot files
+ 
+ $ ls -A | wc -l
+ 
+ Finding files
+ 
+ $ find /usr/share \! -type d | wc -l
+ 
+ to list the number of files and directories
+ 
+ $ find /usr/share | wc -l
+ 
+ to list the number of directories in the /usr/share directory tree
+ 
+ $ find /usr/share \! -type f | wc -l
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+*/
