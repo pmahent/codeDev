@@ -1,0 +1,22 @@
+/*
+
+Tomcat 7 - Docker Image
+https://registry.hub.docker.com/u/jolokia/tomcat-7.0/
+
+
+nginx
+https://registry.hub.docker.com/u/maxexcloo/nginx/
+
+tomcat 5.5
+https://registry.hub.docker.com/u/jolokia/tomcat-5.5/
+
+
+automated nginx reverse proxy
+https://registry.hub.docker.com/u/jwilder/nginx-proxy/
+
+nginx src
+https://registry.hub.docker.com/u/gvangool/nginx-src/
+
+
+
+*/
