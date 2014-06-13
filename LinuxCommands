@@ -1,0 +1,7 @@
+/*
+extract to a directory with tar 
+
+$ tar -xf archive.tar -C /target/directory
+
+
+*/
