@@ -10,6 +10,12 @@ http://nodejs.org/download/
 If you need to run a different versions of node.js in your local environment, consider installing Node Version Manager (nvm) .
 https://github.com/creationix/nvm
 
+This looks like a permissions issue in your home directory. To reclaim ownership of the .npm directory execute
+
+sudo chown -R `whoami` ~/.npm
+sudo chown -R `whoami` ~/.nvm
+
+
 
 Piratheeps-MacBook-Pro:angular-phonecat ptmahent$ sudo npm install
 Password:
